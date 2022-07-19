@@ -43,7 +43,7 @@ def parse_option():
     parser.add_argument('--lrd_step', action='store_true', help='decay learning rate per step')
 
     # self-supervision setting
-    parser.add_argument('--model', type=str, default='resnet18', choices=['resnet10', 'resnet18', 'resnet34', 'resnet50'])
+    parser.add_argument('--backbone', type=str, default='resnet18', choices=['resnet10', 'resnet18', 'resnet34', 'resnet50'])
     parser.add_argument('--size', type=int, default=224, help='input size')
     parser.add_argument('--temp', type=float, default=2.0, help='temperature for loss function')
     parser.add_argument('--lamb', type=float, default=0.1, help='lambda for uniform loss')
@@ -135,7 +135,7 @@ def build_fewshot_loader(args, mode='test'):
 def build_model(args):
     model_dict = {'resnet10': resnet10, 'resnet18': resnet18, 'resnet34': resnet34, 'resnet50': resnet50}
 
-    encoder = model_dict[args.model]()
+    encoder = model_dict[args.backbone]()
 
     model = UniSiam(encoder=encoder, lamb=args.lamb, temp=args.temp, dim_hidden=args.dim_hidden, dist=args.dist)
 
