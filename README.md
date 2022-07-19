@@ -39,7 +39,7 @@ python ./split/tiered_split.py \
 Only **DataParallel** training is supported.
 
 Run 
-```python ./train.py --data_path [your DATA FOLDER] --dataset [DATASET NAME] --model [BACKBONE] [--OPTIONARG]```
+```python ./train.py --data_path [your DATA FOLDER] --dataset [DATASET NAME] --backbone [BACKBONE] [--OPTIONARG]```
 
 For example, to train UniSiam model with ResNet-50 backbone and strong data augmentations on the mini-ImageNet dataset in 4*V100:
 ```
@@ -57,7 +57,7 @@ More configs can be found in `./config`.
 ## Unsupervised Training with Distillation
 
 Run 
-```python ./train.py --teacher_path [your TEACHER MODEL] --data_path [your DATA FOLDER] --dataset [DATASET NAME] --model [BACKBONE] [--OPTIONARG]```
+```python ./train.py --teacher_path [your TEACHER MODEL] --data_path [your DATA FOLDER] --dataset [DATASET NAME] --backbone [BACKBONE] [--OPTIONARG]```
 
 With a pre-trained UniSiam (teacher) model, to train UniSiam model with ResNet-18 backbone and on the mini-ImageNet dataset in 4*V100:
 ```
