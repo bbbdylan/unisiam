@@ -75,7 +75,6 @@ More configs can be found in `./config`. You can train a teacher model with ResN
 
 ## Models (coming soon)
 
-Our pre-trained ResNet models (with 224 image size and strong augmentations) can be downloaded as following:
 
 
 ## Acknowledgements
