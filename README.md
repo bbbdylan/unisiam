@@ -4,7 +4,7 @@
   <img src="https://user-images.githubusercontent.com/60600462/179650280-165db647-31d9-42b1-a69f-f726f2f0c12d.png" width="700">
 </p>
 
-This is a PyTorch re-implementation of the paper [Self-Supervision Can Be a Good Few-Shot Learner](https://github.com/bbbdylan/unisiam).
+This is a PyTorch re-implementation of the paper [Self-Supervision Can Be a Good Few-Shot Learner](https://arxiv.org/abs/2207.09176).
 
 
 ```
