@@ -73,7 +73,8 @@ python train.py \
 More configs can be found in `./config`. You can train a teacher model with ResNet-50 backbone yourself or just download the provided pre-trained model as the teacher model.
 
 
-## Models (coming soon)
+## Models
+Our pre-trained ResNet models (with 224 image size and strong augmentations) can be downloaded from [google drive](https://drive.google.com/drive/folders/1N_5ZiI73TfFFFOudWDPuNXeYc2dHzKYU?usp=sharing).
 
 
 
