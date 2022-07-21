@@ -231,7 +231,7 @@ def main():
     cudnn.benchmark = True
 
     if args.eval_path is not None:
-        model.load_state_dict(torch.load(args.eval_path)['model'])
+        model.load_state_dict(torch.load(args.eval_path)['model'], strict=False)
         evaluate_fewshot(model.encoder, test_loader, n_way=args.n_way, n_shots=[1,5], n_query=args.n_query, classifier='LR', power_norm=True)
         return
         
