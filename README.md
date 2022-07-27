@@ -11,7 +11,7 @@ This is a PyTorch re-implementation of the paper [Self-Supervision Can Be a Good
 @inproceedings{Lu2022Self,
 	title={Self-Supervision Can Be a Good Few-Shot Learner},
 	author={Lu, Yuning and Wen, Liangjian and Liu, Jianzhuang and Liu, Yajing and Tian, Xinmei},
-	booktitle={ECCV},
+	booktitle={European Conference on Computer Vision (ECCV)},
 	year={2022}
 }
 ```
