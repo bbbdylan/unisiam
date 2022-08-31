@@ -15,6 +15,10 @@ This is a PyTorch re-implementation of the paper [Self-Supervision Can Be a Good
 	year={2022}
 }
 ```
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/self-supervision-can-be-a-good-few-shot/unsupervised-few-shot-image-classification-on)](https://paperswithcode.com/sota/unsupervised-few-shot-image-classification-on?p=self-supervision-can-be-a-good-few-shot)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/self-supervision-can-be-a-good-few-shot/unsupervised-few-shot-image-classification-on-1)](https://paperswithcode.com/sota/unsupervised-few-shot-image-classification-on-1?p=self-supervision-can-be-a-good-few-shot)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/self-supervision-can-be-a-good-few-shot/unsupervised-few-shot-image-classification-on-2)](https://paperswithcode.com/sota/unsupervised-few-shot-image-classification-on-2?p=self-supervision-can-be-a-good-few-shot)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/self-supervision-can-be-a-good-few-shot/unsupervised-few-shot-image-classification-on-3)](https://paperswithcode.com/sota/unsupervised-few-shot-image-classification-on-3?p=self-supervision-can-be-a-good-few-shot)
 
 
 ## Data Preparation
