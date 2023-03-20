@@ -4,6 +4,10 @@
   <img src="https://user-images.githubusercontent.com/60600462/179650280-165db647-31d9-42b1-a69f-f726f2f0c12d.png" width="700">
 </p>
 
+## Updates
+- **20.03.2023**: It is recommended to run the code on 4 GPUs.
+
+
 This is a PyTorch re-implementation of the paper [Self-Supervision Can Be a Good Few-Shot Learner (ECCV 2022)](https://arxiv.org/abs/2207.09176).
 
 
